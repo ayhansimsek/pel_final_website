@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/paradise-logo.png">
+
+    <style>
+    .text-center {
+    text-align: center!important;
+}
+    </style>
+    
+    
+
+</head>
+<body>
+
+    <!-- Header starts -->
+  <section id="header-placeholder"></section>
+  <!-- Header ends -->
+
+    <section class="pricing-policy">
+        <h2 class="section-title">Pricing Policy</h2>
+        <p class="section-description">At Paradise Early Learning, we strive to provide high-quality early education and childcare services at competitive rates. Our pricing is designed to accommodate various needs and schedules:</p>
+    
+        <ul class="price-list">
+            <li class="price-item">Full-Day Program: $2,000.00 per month</li>
+            <li class="price-item">Half-Day Program (morning or afternoon): $1,000.00 per month</li>
+            <li class="price-item">Extended Care (before and after-school): $500.00 per month</li>
+        </ul>
+    
+        <p class="section-description">We also offer sibling discounts and occasional promotions. For detailed pricing information or to discuss customized plans, please <a class="contact-link" href="contact.html">contact us</a>.</p>
+    </section>
+    
+    <section class="ccs-calculator">
+    <div class="calculator">
+        <h2>Childcare Subsidy Calculator</h2>
+        <label for="income">Enter your Household Taxable Total Income (ATI):</label>
+        <input type="number" id="income" placeholder="Enter Income">
+        <button onclick="calculateSubsidy()" class="btn-calculator">Calculate Subsidy</button>
+        
+        <p id="result"></p>
+    </div>
+    </section>
+    <section class="subsidy-calculator-info">
+        <header>
+            <h2>Childcare Subsidy Calculation</h2>
+        </header>
+        <article>
+            <table class="subsidy-table">
+                <thead>
+                    <tr>
+                        <th>Combined Family Adjusted Taxable Income (ATI)</th>
+                        <th>Standard Childcare Subsidy (CCS)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Up to $80,000</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>More than $80,000 to below $530,000</td>
+                        <td>Decreases from 90%</td>
+                    </tr>
+                    <tr>
+                        <td>$530,000 or more</td>
+                        <td>0%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <footer>
+            <p>
+                The subsidy percentage is calculated based on your Adjusted Taxable Income (ATI). For incomes up to $80,000, the subsidy is 90%. For incomes between $80,000 and $530,000, the subsidy decreases by 1% for every additional $5,000 in income. Families with an ATI of $530,000 or more are not eligible for any subsidy.
+            </p>
+        </footer>
+    </section>
+    <section id="footer-placeholder"></section>
+    <script type="module" src="./scripts/script.js"></script>
+    <script src="./scripts/ccs_calculator.js"></script>
+
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
