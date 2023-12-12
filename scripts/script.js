@@ -7,5 +7,3 @@ document.getElementById('footer-placeholder').innerHTML = footer;
 
 
 
-
-console.log('header')
