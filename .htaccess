@@ -1,0 +1,2 @@
+Rewriteengine On
+RewriteRule ^about_us$ about_us.html [L]
